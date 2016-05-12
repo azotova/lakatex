@@ -712,7 +712,8 @@ for (let i = 0; i < textSymbols.length; i++) {
 }
 
 // All of these are textords in text mode, and mathords in math mode
-const letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" +
+  "абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
 for (let i = 0; i < letters.length; i++) {
     const ch = letters.charAt(i);
     defineSymbol(math, main, mathord, ch, ch);

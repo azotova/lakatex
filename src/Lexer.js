@@ -47,7 +47,7 @@ const tokenRegex = new RegExp(
     "|[\uD800-\uDBFF][\uDC00-\uDFFF]" +               // surrogate pair
     `${combiningDiacriticalMarkString}*` +            // ...plus accents
     "|\\\\verb\\*([^]).*?\\3" +                       // \verb*
-    "|\\\\verb([^*a-zA-Z]).*?\\4" +                   // \verb unstarred
+    "|\\\\verb([^*a-zA-Zа-яА-Я]).*?\\4" +             // \verb unstarred
     `|${controlWordRegexString}` +                    // \macroName
     `|${controlSymbolRegexString}` +                  // \\, \', etc.
     ")"
