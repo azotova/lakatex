@@ -6,7 +6,7 @@
   "browser": "dist/katex.min.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Khan/KaTeX.git"
+    "url": "git://github.com/azotova/lakatex.git"
   },
   "files": [
     "katex.js",
