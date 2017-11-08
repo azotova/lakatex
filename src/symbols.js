@@ -739,6 +739,7 @@ for (let i = 0; i < extraLatinMath.length; i++) {
 // Cyrillic
 for (let i = 0x0410; i <= 0x044F; i++) {
     const ch = String.fromCharCode(i);
+    defineSymbol(math, main, mathord, ch, ch); // мой хак
     defineSymbol(text, main, textord, ch, ch);
 }
 
