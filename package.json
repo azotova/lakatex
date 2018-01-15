@@ -1,5 +1,5 @@
 {
-  "name": "katex",
+  "name": "lakatex",
   "version": "0.9.0-beta",
   "description": "Fast math typesetting for the web.",
   "main": "dist/katex.js",
