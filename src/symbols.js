@@ -766,12 +766,10 @@ for (let i = 0; i < textSymbols.length; i++) {
 }
 
 // All of these are textords in text mode, and mathords in math mode
-<<<<<<< HEAD
+
 const letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" +
   "абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
-=======
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
->>>>>>> f03671ce61a9650f1f94bc278ba391e306f7c8b6
+
 for (let i = 0; i < letters.length; i++) {
     const ch = letters.charAt(i);
     defineSymbol(math, main, mathord, ch, ch);
